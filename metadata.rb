@@ -10,8 +10,8 @@ recipe 'rabbitmq::plugin_management', 'Manage plugins with node attributes'
 recipe 'rabbitmq::virtualhost_management', 'Manage virtualhost with node attributes'
 recipe 'rabbitmq::user_management', 'Manage users with node attributes'
 
-issues_url 'https://github.com/rabbitmq/chef-cookbook/issues'
-source_url 'https://github.com/rabbitmq/chef-cookbook'
+#issues_url 'https://github.com/rabbitmq/chef-cookbook/issues'
+#source_url 'https://github.com/rabbitmq/chef-cookbook'
 
 depends 'erlang'
 depends 'yum-epel'
